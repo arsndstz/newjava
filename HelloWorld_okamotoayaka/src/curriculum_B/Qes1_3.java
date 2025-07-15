@@ -76,25 +76,25 @@ public class Qes1_3 {
 			System.out.println(name + "の手は「" + playerHand + "」相手の手は「" + playerHand2 + "」");
 			
 			if(playerHand == 0 && playerHand2 == 1 || playerHand == 1 && playerHand2 == 2 || playerHand == 2 && playerHand2 == 0) {
-				System.out.println("やるやん。次は俺にリベンジさせて");
+				System.out.println("やるやん。\n次は俺にリベンジさせて");
 				flag = true;
 			}else if(playerHand == 0 && playerHand2 == 0 || playerHand == 1 && playerHand2 == 1 || playerHand == 2 && playerHand2 == 2) {
-				System.out.println("DRAWあいこもう一回しましょう！");
+				System.out.println("DRAW\nあいこもう一回しましょう！");
 				count++;
 				flag = false;
 			}else {
 				switch(playerHand2){
 				  case 0:
-					  System.out.println("俺の勝ち！負けは次につながるチャンスです！ネバーギブアップ！");
+					  System.out.println("俺の勝ち！\n負けは次につながるチャンスです！ネバーギブアップ！");
 					  flag = false;
 					    break;
 				  case 1:
-					  System.out.println("俺の勝ち！たかがじゃんけん、そう思ってないですか？それやったら次も俺が勝ちますよ");
+					  System.out.println("俺の勝ち！\nたかがじゃんけん、そう思ってないですか？それやったら次も俺が勝ちますよ");
 					  flag = false;
 					    break;
 
 				  default:
-					  System.out.println("俺の勝ち！何で負けたか明日まで考えといてください。そしたら何かが見えてくるはずです");
+					  System.out.println("俺の勝ち！\n何で負けたか明日まで考えといてください。そしたら何かが見えてくるはずです");
 					  flag = false;
 				}
 				count++;
