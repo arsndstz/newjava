@@ -7,8 +7,8 @@ public class Qes_5 {
 
 		for(int i = 1; i < 10; i++) {
 			for(int j = 1; j < 21; j++) {
-				System.out.printf("%03d*%03d=%03d", i, j, j * i); // 0埋めする
-				if(j < 21) {
+				System.out.printf("%03d*%03d=%03d", j, i, j * i); // 0埋めする
+				if(j < 20) {
 					System.out.print("||");
 				}
 			}
