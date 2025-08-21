@@ -1,6 +1,7 @@
 package Qes_22;
 
 public class Dog {
+	// フィールド
 	String name;
 	int count;
 	

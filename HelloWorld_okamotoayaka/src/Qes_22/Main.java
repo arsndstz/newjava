@@ -17,7 +17,6 @@ public class Main {
 		String formattedDate = now.format(formatter);
 		System.out.println(formattedDate);
 		
-		
 	}
 
 }
