@@ -16,11 +16,6 @@ public class Animal {
 	private double length;
 	private int speed;
 	
-	public Animal(String name, double length, int speed) {
-		this.name = name;
-		this.length = length;
-		this.speed = speed;
-	}
 	
 	// ゲッター
 	public String getName() {
