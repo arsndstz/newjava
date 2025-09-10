@@ -33,6 +33,7 @@
 	速度：50km/h
 	学名：不明
   */
+
 package procpkg;
 
 public abstract class Animal {
