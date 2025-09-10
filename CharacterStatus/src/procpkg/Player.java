@@ -32,5 +32,4 @@ public class Player extends Character {
 		setSpeed((int)(Math.random() * 1000));
 		setDefence((int)(Math.random() * 100));
 	}
-
 }
