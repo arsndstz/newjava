@@ -5,7 +5,7 @@ public class Lion extends Animal {
 		super("ライオン", length, speed);
 	}
 
-	@Override
+@Override
 	public String getScientificName() {
 		return "パンテラ レオ";
 	}

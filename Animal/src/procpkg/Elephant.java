@@ -5,7 +5,7 @@ public class Elephant extends Animal {
 		super("ゾウ", length, speed);
 	}
 
-	@Override
+@Override
 	public String getScientificName() {
 		return "ロキソドンタ・サイクロティス";
 	}

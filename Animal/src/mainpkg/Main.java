@@ -1,5 +1,4 @@
 package mainpkg;
-
 import java.util.Scanner;
 
 import procpkg.Animal;

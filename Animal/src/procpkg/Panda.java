@@ -5,7 +5,7 @@ public class Panda extends Animal {
 		super("パンダ", length, speed);
 	}
 
-	@Override
+@Override
 	public String getScientificName() {
 		return "アイルロポダ・メラノレウカ";
 	}

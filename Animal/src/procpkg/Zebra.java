@@ -5,7 +5,7 @@ public class Zebra extends Animal {
 		super("シマウマ", length, speed);
 	}
 
-	@Override
+@Override
 	public String getScientificName() {
 		return "チャップマンシマウマ";
 	}

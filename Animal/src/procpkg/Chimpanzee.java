@@ -5,7 +5,7 @@ public class Chimpanzee extends Animal {
 		super("チンパンジー", length, speed);
 	}
 
-	@Override
+@Override
 	public String getScientificName() {
 		return "パン・トゥログロディテス";
 	}

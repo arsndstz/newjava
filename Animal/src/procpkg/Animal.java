@@ -32,6 +32,7 @@
 	体長：0.1m
 	速度：50km/h
 	学名：不明
+	
   */
 
 package procpkg;

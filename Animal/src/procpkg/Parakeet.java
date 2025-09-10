@@ -5,7 +5,7 @@ public class Parakeet extends Animal {
 		super("インコ", length, speed);
 	}
 
-	@Override
+@Override
 	public String getScientificName() {
 		return "不明";
 	}
