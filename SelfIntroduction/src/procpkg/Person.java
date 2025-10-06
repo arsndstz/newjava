@@ -21,7 +21,6 @@ public class Person {
 	public static int getCount() {
 		return count;
 	}
-	
 	public String getName() {
 		return name;
 	}
@@ -34,7 +33,6 @@ public class Person {
 	public double getWeight() {
 		return weight;
 	}
-	
 	public double bmi() {
 		return this.weight / (this.height * this.height);
 	}
@@ -42,6 +40,9 @@ public class Person {
 	public void print() {
 		System.out.println("名前は" + this.name + "です");
 		System.out.println("年は" + this.age + "です");
-		System.out.printf("BMIは%.1fです%n" ,this.bmi());
+		
+		double bmiValue = this.bmi();
+		double truncated = Math.floor(bmiValue);
+		System.out.printf("BMIは%.1fです%n", truncated);
 	}
 }
